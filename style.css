@@ -1,0 +1,159 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+main{
+  display: flex;
+  position: absolute;
+  left:50%;
+  top:50%;
+  transform: translate(-50%,-50%);
+  font-family:  Arial, Helvetica, sans-serif;
+  box-shadow: 0 5px 5px rgba(0,0,0,.2);
+  border-radius: 2rem;
+  background-color: white;
+  margin: .8rem;
+}
+
+.results{
+  width:19rem;
+  height: 25rem;
+  background-image: linear-gradient(to bottom,#7F00FF,#2948ff);
+  border-radius: 2rem;
+  padding: 3rem;
+  align-items: center;
+  text-align: center;
+  
+  
+}
+
+body{
+  background-color: whitesmoke;
+}
+
+.summary{
+  width:19rem;
+  height: 25rem;
+  
+  border-radius: 0rem 2rem 2rem 0rem;
+  padding: 3rem;
+  align-items: center;
+  text-align: center;
+ /* box-shadow: 0 2px 5px rgba(0,0,0,.2);*/
+  
+}
+
+.heading{
+  text-transform: capitalize;
+  color: #e1eec3;
+  font-size: 20px;
+}
+
+.final-result{
+   background-image: linear-gradient(to bottom,#3c05bd,#3c05bd);
+  width: 10rem;
+  height: 10rem;
+  border-radius: 5rem;
+  padding: 5rem;
+  margin: 1rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #e1eec3;
+  box-shadow: 2px 2px 5px rgba(0,0,0,.2) inset;
+}
+
+.final-result p,h2{
+  align-self: center;
+  line-height: 2.1rem;
+  
+}
+.final-result h2{
+  font-size:3rem;
+}
+
+.final-result p{
+  font-size: .8rem;
+  color: #8c8c8c;
+}
+
+.summary-res{
+  color: #e1eec3;
+  
+}
+#great{
+  
+  padding: 1rem;
+  font-size:1.4rem;
+  
+}
+.summary{
+  padding: 2rem;
+}
+
+.summary-res p{
+}
+
+.summary h3{
+  text-align: left;
+}
+
+.summary div{
+  width: 90%;
+  height: 3.2rem;
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+  padding: 1rem ;
+ 
+   font-size: 16px; 
+  text-transform: capitalize;
+  border-radius: 1rem;
+}
+
+.reaction{
+  background-color: #ffcc85;
+  color: #D66D75;
+}
+
+.memory{
+
+  background-color: #fcfac5;
+  color: #ff9966;
+  color: #fdbb2d;
+}
+
+.verbal{
+  background-color: #94ffe2;
+  color: #22c1c3;
+}
+
+.visual{
+  background-color: #e33ef9;
+  color: #642B73;
+}
+
+button{
+  width: 90%;
+  
+  border-radius: 2rem;
+  background-color: #000046;
+  color: whitesmoke;
+  padding: .6rem;
+  font-size: 1rem;
+  text-align: center;
+}
+
+@media (max-width:500px){
+  main{
+    display: block;
+    
+  }
+}
